@@ -7,7 +7,6 @@ const Main = styled.main`
   justify-content: center;
   margin: 0 auto;
   flex: 1;
-  border: 1px solid black;
 `;
 
 const Content = () => {

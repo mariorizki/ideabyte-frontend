@@ -5,6 +5,7 @@ import styled from 'styled-components';
 const StyledH1 = styled.h1`
   margin: 40px 0;
   text-align: center;
+  color: #fff;
 `;
 
 const HeaderText = () => {

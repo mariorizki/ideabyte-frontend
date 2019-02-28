@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 const Nav = styled.nav`
   display: flex;
   justify-content: center;
-  background-color: #000;
 `;
 
 const NavUl = styled.ul`

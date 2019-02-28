@@ -4,12 +4,16 @@ import { createStore } from 'redux'; // a function, so it's camelCase
 import { Provider } from 'react-redux'; // a component, so it's TitleCase
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import {
+  faUser,
+  faCalendar,
+  faMapMarkerAlt
+} from '@fortawesome/free-solid-svg-icons';
 
 import Home from './pages/Home';
 import About from './pages/About';
 
-library.add(faUser);
+library.add(faUser, faCalendar, faMapMarkerAlt);
 
 // REDUX INITIAL STATE
 // Prepare dummy data when the app starts

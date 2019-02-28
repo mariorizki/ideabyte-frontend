@@ -1,20 +1,15 @@
 import React from 'react';
 
-import Navigation from '../components/Navigation';
-import HeaderText from '../components/HeaderText';
-import HeaderButton from '../components/HeaderButton';
-import SearchBar from '../components/SearchBar';
+import HeaderHome from '../components/HeaderHome';
 import Content from '../components/Content';
+import Footer from '../components/Footer';
 
 const Home = () => {
   return (
     <div>
-      <Navigation />
-      <HeaderText />
-      <HeaderButton />
-      <SearchBar />
+      <HeaderHome />
       <Content />
-      Home
+      <Footer />
     </div>
   );
 };

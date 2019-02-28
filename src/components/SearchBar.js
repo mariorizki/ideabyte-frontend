@@ -19,7 +19,6 @@ const SearchSubmit = styled.input`
 const SearchText = styled.input`
   background: none;
   border: none;
-  color: #fff;
   font-size: 16px;
   font-weight: bold;
   padding: 20px;
