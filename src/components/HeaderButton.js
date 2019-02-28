@@ -44,6 +44,7 @@ const CoverButtons = props => {
           <CoverButton color="green">Get Started</CoverButton>
         </Link>
       )}
+
       <Link to="/about">
         <CoverButton color="yellow">Explore Ideas</CoverButton>
       </Link>

@@ -3,8 +3,13 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { createStore } from 'redux'; // a function, so it's camelCase
 import { Provider } from 'react-redux'; // a component, so it's TitleCase
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faUser } from '@fortawesome/free-solid-svg-icons';
+
 import Home from './pages/Home';
 import About from './pages/About';
+
+library.add(faUser);
 
 // REDUX INITIAL STATE
 // Prepare dummy data when the app starts
@@ -44,6 +49,33 @@ const initialState = {
     {
       id: 3,
       title: 'Tripvesto Trip Planner 3',
+      short: "App to plan and gather your friends to travel. Let's join us!",
+      author: 'Joen Doe',
+      date: '2019/02/25',
+      location: 'Jakarta, Indonesia',
+      slug: 'tripvesto-trip-planner'
+    },
+    {
+      id: 4,
+      title: 'Tripvesto Trip Planner 4',
+      short: "App to plan and gather your friends to travel. Let's join us!",
+      author: 'Joen Doe',
+      date: '2019/02/25',
+      location: 'Jakarta, Indonesia',
+      slug: 'tripvesto-trip-planner'
+    },
+    {
+      id: 5,
+      title: 'Tripvesto Trip Planner 5',
+      short: "App to plan and gather your friends to travel. Let's join us!",
+      author: 'Joen Doe',
+      date: '2019/02/25',
+      location: 'Jakarta, Indonesia',
+      slug: 'tripvesto-trip-planner'
+    },
+    {
+      id: 6,
+      title: 'Tripvesto Trip Planner 6',
       short: "App to plan and gather your friends to travel. Let's join us!",
       author: 'Joen Doe',
       date: '2019/02/25',

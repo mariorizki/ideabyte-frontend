@@ -1,5 +1,5 @@
 import React from 'react';
-
+import IdeaCards from '../components/IdeaCards';
 import styled from 'styled-components';
 
 const Main = styled.main`
@@ -7,10 +7,15 @@ const Main = styled.main`
   justify-content: center;
   margin: 0 auto;
   flex: 1;
+  border: 1px solid black;
 `;
 
 const Content = () => {
-  return <Main>Content</Main>;
+  return (
+    <Main>
+      <IdeaCards />
+    </Main>
+  );
 };
 
 export default Content;
