@@ -5,12 +5,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Card = styled.div`
   margin: 10px 10px;
-  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   transition: 0.2s;
   border-radius: 10px;
   width: 300px;
   cursor: pointer;
-  background-color: #f6f2f2;
+  background-color: #f5fff9;
 
   &:hover {
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.8);
