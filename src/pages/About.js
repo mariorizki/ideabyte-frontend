@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Navigation from '../components/Navigation';
+import HeaderAbout from '../components/HeaderAbout';
 import AboutText from '../components/AboutText';
 
 const About = () => {
   return (
     <div>
-      <Navigation />
+      <HeaderAbout />
       <AboutText />
     </div>
   );

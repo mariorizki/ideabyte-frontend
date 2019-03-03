@@ -39,7 +39,8 @@ const initialState = {
       author: 'Joen Doe',
       date: '2019/02/25',
       location: 'Jakarta, Indonesia',
-      slug: 'tripvesto-trip-planner'
+      slug: 'tripvesto-trip-planner',
+      image: '/assets/images/travel.jpg'
     },
     {
       id: 2,
@@ -48,7 +49,8 @@ const initialState = {
       author: 'Joen Doe',
       date: '2019/02/25',
       location: 'Jakarta, Indonesia',
-      slug: 'tripvesto-trip-planner'
+      slug: 'tripvesto-trip-planner',
+      image: '/assets/images/travel.jpg'
     },
     {
       id: 3,
@@ -57,7 +59,8 @@ const initialState = {
       author: 'Joen Doe',
       date: '2019/02/25',
       location: 'Jakarta, Indonesia',
-      slug: 'tripvesto-trip-planner'
+      slug: 'tripvesto-trip-planner',
+      image: '/assets/images/travel.jpg'
     },
     {
       id: 4,
@@ -66,7 +69,8 @@ const initialState = {
       author: 'Joen Doe',
       date: '2019/02/25',
       location: 'Jakarta, Indonesia',
-      slug: 'tripvesto-trip-planner'
+      slug: 'tripvesto-trip-planner',
+      image: '/assets/images/travel.jpg'
     },
     {
       id: 5,
@@ -75,7 +79,8 @@ const initialState = {
       author: 'Joen Doe',
       date: '2019/02/25',
       location: 'Jakarta, Indonesia',
-      slug: 'tripvesto-trip-planner'
+      slug: 'tripvesto-trip-planner',
+      image: '/assets/images/travel.jpg'
     },
     {
       id: 6,
@@ -84,7 +89,8 @@ const initialState = {
       author: 'Joen Doe',
       date: '2019/02/25',
       location: 'Jakarta, Indonesia',
-      slug: 'tripvesto-trip-planner'
+      slug: 'tripvesto-trip-planner',
+      image: '/assets/images/travel.jpg'
     }
   ]
 };

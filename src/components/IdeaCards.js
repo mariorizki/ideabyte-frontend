@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 
-import IdeaCard from '../components/IdeaCard';
+import IdeaCardFlipped from '../components/IdeaCardFlipped';
 
 const Section = styled.section`
   display: flex;
@@ -14,7 +14,7 @@ const IdeaCards = props => {
   return (
     <Section>
       {props.ideas.map((item, index) => {
-        return <IdeaCard key={index} item={item} />;
+        return <IdeaCardFlipped key={index} item={item} />;
       })}
     </Section>
   );
